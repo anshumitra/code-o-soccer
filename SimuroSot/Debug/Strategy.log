@@ -1,0 +1,265 @@
+﻿Build started 10/7/2013 4:01:46 PM.
+     1>Project "C:\Users\theslavemaster\codeosoccer\SimuroSot\Strategy.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../Core /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D STRATEGY_EXPORTS /D PS_CLASS=NaivePS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D LOCAL_AVOID /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\Strategy.pch" /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../Core /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D STRATEGY_EXPORTS /D PS_CLASS=NaivePS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D LOCAL_AVOID /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\Strategy.pch" /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt common\include\config.cpp main.cpp skills.cpp Utils\intersection.cpp winDebugger\Client.cpp common\src\thread.cpp Core\beliefState.cpp HAL\comm.cpp Server.cpp Strategy.cpp Utils\comdef.cpp Utils\kalman.cpp Utils\LocalAvoidance.cpp
+         LocalAvoidance.cpp
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(230): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(241): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(60): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(64): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(65): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(66): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(67): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(102): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(111): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(111): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(117): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(136): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(169): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(170): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(187): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\localavoidance.cpp(188): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(209): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\theslavemaster\codeosoccer\simurosot\utils\pathplanners.h(85) : see reference to function template instantiation 'bool intersects<int>(const Vector2D<T> &,const Vector2D<T> &,const Vector2D<T> &,T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(210): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(211): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         kalman.cpp
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\comdef.h(14): warning C4005: 'ABSOLUTE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(1892) : see previous definition of 'ABSOLUTE'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(230): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(241): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\timer.h(60): warning C4996: '__timezone': This function or variable may be unsafe. Consider using _get_timezone instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\time.h(139) : see declaration of '__timezone'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\timer.h(61): warning C4996: '__daylight': This function or variable may be unsafe. Consider using _get_daylight instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\time.h(131) : see declaration of '__daylight'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.h(23): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.h(24): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.h(25): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.h(26): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(19): warning C4804: '-' : unsafe use of type 'bool' in operation
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(20): warning C4804: '-' : unsafe use of type 'bool' in operation
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(37): warning C4244: '=' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(59): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(143): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(144): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(145): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(150): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(153): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(157): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(158): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(163): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(166): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(170): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(171): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(173): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(175): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(179): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(180): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(187): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(188): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(198): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(199): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(200): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(204): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(206): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(210): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(211): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(213): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(215): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(219): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(220): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(222): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(224): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(228): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(229): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(233): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(234): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(243): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(244): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(250): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(252): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(256): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(257): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(259): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(261): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(265): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(266): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(269): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(270): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(287): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(299): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.cpp(307): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         comdef.cpp
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\comdef.h(14): warning C4005: 'ABSOLUTE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(1892) : see previous definition of 'ABSOLUTE'
+         Strategy.cpp
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\comdef.h(14): warning C4005: 'ABSOLUTE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(1892) : see previous definition of 'ABSOLUTE'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(230): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(241): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\timer.h(60): warning C4996: '__timezone': This function or variable may be unsafe. Consider using _get_timezone instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\time.h(139) : see declaration of '__timezone'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\timer.h(61): warning C4996: '__daylight': This function or variable may be unsafe. Consider using _get_daylight instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\time.h(131) : see declaration of '__daylight'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.h(23): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.h(24): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.h(25): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\kalman.h(26): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\attacker.hpp(9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\strategy.cpp(65): warning C4101: 'k' : unreferenced local variable
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(209): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\theslavemaster\codeosoccer\simurosot\utils\pathplanners.h(85) : see reference to function template instantiation 'bool intersects<int>(const Vector2D<T> &,const Vector2D<T> &,const Vector2D<T> &,T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(210): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(211): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         Server.cpp
+         comm.cpp
+         beliefState.cpp
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(230): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(241): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\comdef.h(14): warning C4005: 'ABSOLUTE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(1892) : see previous definition of 'ABSOLUTE'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\core\beliefstate.cpp(57): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\core\beliefstate.cpp(62): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\core\beliefstate.cpp(67): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\core\beliefstate.cpp(69): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\core\beliefstate.cpp(76): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\core\beliefstate.cpp(80): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\core\beliefstate.cpp(84): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\core\beliefstate.cpp(86): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\core\beliefstate.cpp(230): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\core\beliefstate.cpp(243): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\core\beliefstate.cpp(259): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(209): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\theslavemaster\codeosoccer\simurosot\utils\pathplanners.h(85) : see reference to function template instantiation 'bool intersects<int>(const Vector2D<T> &,const Vector2D<T> &,const Vector2D<T> &,T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(210): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(211): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         thread.cpp
+         Client.cpp
+     1>c:\users\theslavemaster\codeosoccer\simurosot\windebugger\client.cpp(15): warning C4101: 'buffer' : unreferenced local variable
+         intersection.cpp
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(230): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(241): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(23): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(24): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(61): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(65): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(66): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(67): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(91): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(95): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(96): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(97): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(102): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(103): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(107): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(107): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(109): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(110): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(114): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(115): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(123): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(124): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(128): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(128): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(130): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(131): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(135): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(136): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(203): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(203): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(210): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(210): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(224): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(224): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(231): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\intersection.cpp(231): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+         skills.cpp
+     1>c:\users\theslavemaster\codeosoccer\simurosot\utils\comdef.h(14): warning C4005: 'ABSOLUTE' : macro redefinition
+                 c:\program files (x86)\windows kits\8.0\include\um\wingdi.h(1892) : see previous definition of 'ABSOLUTE'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(230): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(241): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(36): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(37): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(51): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(52): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(89): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(93): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(96): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(117): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(146): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(169): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(170): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(214): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(220): warning C4101: 'omega' : unreferenced local variable
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(209): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\theslavemaster\codeosoccer\simurosot\utils\pathplanners.h(85) : see reference to function template instantiation 'bool intersects<int>(const Vector2D<T> &,const Vector2D<T> &,const Vector2D<T> &,T)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(210): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\geometry.hpp(211): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         main.cpp
+         config.cpp
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(2): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(8): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(13): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(14): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(16): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(17): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(18): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(19): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(28): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(30): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(31): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(46): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(47): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(55): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\theslavemaster\codeosoccer\simurosot\common\include\config.cpp(68): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+         Generating Code...
+     1>c:\users\theslavemaster\codeosoccer\simurosot\skills.cpp(153): warning C4700: uninitialized local variable 'vl' used
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /l"0x0c09" /nologo /fo".\Debug\Strategy.res" Strategy.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\Strategy.dll" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug\Strategy.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\Strategy.lib" /MACHINE:X86 /SAFESEH /DLL .\Debug\Strategy.res
+         .\Debug\config.obj
+         .\Debug\main.obj
+         .\Debug\skills.obj
+         .\Debug\intersection.obj
+         .\Debug\Client.obj
+         .\Debug\thread.obj
+         .\Debug\beliefState.obj
+         .\Debug\comm.obj
+         .\Debug\Server.obj
+         .\Debug\StdAfx.obj
+         .\Debug\Strategy.obj
+         .\Debug\comdef.obj
+         .\Debug\kalman.obj
+         .\Debug\LocalAvoidance.obj
+     1>config.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library .\Debug\Strategy.lib and object .\Debug\Strategy.exp
+         Strategy.vcxproj -> C:\Users\theslavemaster\codeosoccer\SimuroSot\.\Debug\Strategy.dll
+     1>Done Building Project "C:\Users\theslavemaster\codeosoccer\SimuroSot\Strategy.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.45
